@@ -1,0 +1,76 @@
+/*---global styles---*/
+
+section {
+	margin-bottom: 50px;
+}
+body {
+	font-size: 1.4em;
+}
+body, h2, h3, a {
+	font-family: 'Quattrocento Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #474747;
+	transition: all 0.7s ease;
+}
+p {
+	font-size: 2em;
+}
+h2 {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 5px;
+}
+.project-post p {
+	font-size: 1.5em;
+}
+a {
+	color: #588bb7;
+}
+p.copyright {
+	color: #b1b1b1;
+}
+/*---Social Icon styles---*/
+.social {
+	margin-bottom: 30px;
+}
+.social ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding: 0px;
+	list-style: none;
+	font-size: 2em;
+}
+/*---Self Portrait styles---*/
+
+.selfportrait {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*---Footer styles---*/
+footer {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+footer {
+	text-align: center;
+}
+.social {
+	text-align: center;
+}
+.social li {
+	display: inline;
+}
+body {
+	font-size: 1.2em;
+}
+}
